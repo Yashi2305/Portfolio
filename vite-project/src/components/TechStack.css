@@ -1,0 +1,82 @@
+/* Tech Stack Section */
+.tech-timeline-section {
+    background-color: #1a1a1a; /* Dark background */
+    color: white; /* White text */
+    padding: 3rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+/* Grid Layout */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row on large devices */
+    gap: 1.5rem; /* Reduced gap */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Tech Card */
+.tech-card {
+    background-color: #333; /* Dark gray background for cards */
+    border: 1px solid #444; /* Slightly lighter border */
+    border-radius: 12px;
+    padding: 1.5rem; /* Reduced padding */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+}
+
+/* Icon Styles */
+.icon {
+    font-size: 2.5rem; /* Slightly smaller icon size */
+    margin-bottom: 1rem;
+    color: #fff; /* White icon color */
+}
+
+/* Text Styles */
+.tech-card h2 {
+    font-size: 1.25rem; /* Reduced heading size */
+    margin: 0.5rem 0;
+    color: #e0e0e0; /* Light gray for headings */
+}
+
+.tech-card p {
+    font-size: 0.9rem; /* Reduced category size */
+    margin: 0.5rem 0;
+    color: #b0b0b0; /* Medium gray for category */
+}
+
+/* Media Queries */
+
+/* For Tablet devices (around 768px) */
+@media (max-width: 768px) {
+    .tech-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    }
+}
+
+/* For Smaller devices (around 576px) */
+@media (max-width: 576px) {
+    .tech-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    }
+}
+
+/* For Mobile devices (below 576px) */
