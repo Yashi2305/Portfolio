@@ -1,7 +1,6 @@
 import React from "react";
 import "./Socials.css";
-// You can use React Icons for social media icons
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin} from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Socials = () => {
