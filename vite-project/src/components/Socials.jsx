@@ -3,7 +3,7 @@ import "./Socials.css";
 // You can use React Icons for social media icons
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import Flip from 'react-reveal/Rotate';
+
 const Socials = () => {
   const socials = [
     { name: "GitHub", icon: <FaGithub />, link: "https://github.com/Yashi2305" },
@@ -12,7 +12,7 @@ const Socials = () => {
   ];
 
   return (
-    <Flip>
+  
     <div id="socials" className="socials-section">
       <h1 className="section-title">Connect with Me</h1>
       <div className="socials-list">
@@ -35,7 +35,7 @@ const Socials = () => {
         ))}
       </div>
     </div>
-    </Flip>
+  
   );
 };
 

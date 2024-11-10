@@ -1,10 +1,8 @@
 import React from "react";
 import "./AboutSection.css"; // Import the CSS file for styles
-import Zoom from 'react-reveal/Zoom';
 
 function AboutSection() {
   return (
-    <Zoom>
     <section id="about" className="about-section">
       <div className="about-text">
         <h2 className="about-title">A little bit about me...</h2>
@@ -20,7 +18,6 @@ function AboutSection() {
         <img src="/p2.jpg" alt="Yashi Singh" className="about-image" />
       </div>
     </section>
-    </Zoom>
   );
 }
 

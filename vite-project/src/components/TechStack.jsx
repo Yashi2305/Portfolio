@@ -1,6 +1,6 @@
 import React from "react";
 import "./TechStack.css";
-import Bounce from 'react-reveal/Bounce';
+
 
 const TechStack = () => {
   const techStacks = [
@@ -21,7 +21,7 @@ const TechStack = () => {
 ];
 
   return (
-    <Bounce>
+   
     <div id="tech" className="tech-timeline-section">
       <h1 className="section-title">Tech Stack</h1>
       <div className="tech-grid">
@@ -34,7 +34,7 @@ const TechStack = () => {
         ))}
       </div>
     </div>
-    </Bounce>
+   
   );
 };
 

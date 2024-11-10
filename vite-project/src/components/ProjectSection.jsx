@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectSection.css";
-import Zoom from "react-reveal/Bounce";
+
 
 const ProjectSection = () => {
   const projects = [
@@ -25,7 +25,7 @@ const ProjectSection = () => {
   ];
 
   return (
-    <Zoom>
+ 
       <div id="project" className="project-section">
         <h1 className="section-title">Projects</h1>
         <div className="project-list">
@@ -56,7 +56,7 @@ const ProjectSection = () => {
           ))}
         </div>
       </div>
-    </Zoom>
+    
   );
 };
 

@@ -1,6 +1,5 @@
 import React from "react";
 import "./EducationPage.css";
-import JackInTheBox from 'react-reveal/roll';
 
 const educationData = [
   {
@@ -26,7 +25,7 @@ const educationData = [
 
 const EducationSection = () => {
   return (
-    <JackInTheBox>
+   
     <section id="education" className="education">
       <h2 className="section-title">Education Timeline</h2>
       <div className="education-timeline">
@@ -42,7 +41,6 @@ const EducationSection = () => {
         ))}
       </div>
     </section>
-    </JackInTheBox>
   );
 };
 
